@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+    <link rel="stylesheet" href="style.css">
+
+ 
+
+    
+<body class="container-fluid">
+<br>
+<br>
+<h1 ,align='center' id='title'><strong> Survey Form </strong></h1>
+
+ 
+
+<form  id="survey-form" >
+  
+  <p id="description",align="center">Let us know how we can improve freeCodeCamp </p>
+  
+  <label id="name-label" for="name">* Name : </label><input id="name" type='text' placeholder=' Enter your name' autocomplete="off">
+  
+  <label id='email-label'>* Email : </label><input id='email' type='email'
+     placeholder=' Enter your email' autocomplete="off">
+  
+  <label id='number-label'>* Age : </label><input id='number' type='number' placeholder=' Age' min="18" max="30">
+  
+ 
+  <label for='dropdown'>Which option best describes your current role?</label>
+  
+  <select id='dropdown'>
+    <option value='Student'>Student</option>
+    <option value='Employee'>Employee</option>
+    <option value='Trainee'>Trainee</option>
+    <option value='Other'>Other</option>
+  </select>
+
+ 
+
+  
+  <label target>How likely is that you would recommend 
+    <br> freeCodeCamp to a friend?</label>
+  <div id='radio'>
+    <label for='1'><input type='radio' name='period' id ='1' value='1 year'> Definitely</label>
+    <label for='2'><input type='radio' name='period'  id ='2' value='2 years'> Maybe</label>
+    <label for='3'><input type='radio' name='period'  id ='3' value='3 years'> Not sure</label>
+  </div>
+  
+  <label target>What do you like most in FCC?</label>
+  
+    <select id='dropdown'>
+      <option value='Web technology'>Select an option</option>
+      <option value='Penetration testing'>abc</option>
+      <option value='Networking'>xyz</option>
+      <option value='data science'>pqr</option>
+      </select>
+  
+  
+  <label target>Things that should beb improved in the future
+    <br>
+    <span class="clue">(Check all that apply):</span></label>
+    <div id='check'>
+      <label for='a'><input type='checkbox' name='lt' id ='a' value='Front-end Projects'> Front-end Projects</label>
+       <label for='b'><input type='checkbox' name='lt' id ='b' value='Back-end Projects'> Back-end Projects</label>
+       <label for='c'><input type='checkbox' name='lt' id ='c' value='Data Visualization'> Data Visualization</label>
+    </div>
+    
+    <input type='submit' id='submit'>
+  
+     
+</form>
+  </body>
+
+ 
+
+</head>
+</html>
